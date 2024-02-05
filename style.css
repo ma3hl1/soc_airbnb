@@ -100,3 +100,24 @@ body {
   .description p {
     margin-bottom: 5px
   }
+
+  .action-icons {
+    display: flex;  /* Apply flexbox for layout */
+    justify-content: space-between;  /* Space icons evenly */
+    margin-top: 20px; 
+  }
+  
+  .action-icons img {
+    width: 30px; 
+    height: 30px;  
+    margin-bottom: 5px; 
+    cursor: pointer;  /* Add a pointer cursor */
+  }
+  
+  .action-icons img:hover {
+    background-color: #eee;  /* Add hover effect */
+  }
+
+  .make-grey {
+    color: #888;
+  }
