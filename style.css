@@ -45,3 +45,32 @@ body {
   .give.border {
     border: 5px solid #555;
   }
+
+  .icon-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    background-color: #eee;
+  }
+  
+  .icon img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .icon.active {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
