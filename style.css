@@ -1,0 +1,47 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-bar img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .subtext {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #888;
+  }
+  
+  .subtext span {
+    margin-right: 10px;
+  }
+  
+
+  .make-circle {
+    border-radius: 50px;
+  }
+
+  .give.border {
+    border: 5px solid #555;
+  }
